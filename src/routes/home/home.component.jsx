@@ -1,14 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-
 const Home = () => {
     return (
         <div>
             <header class name="class-header"> 
             Phantom
         </header> 
-            <div className="text-white">
+            <div className="class-intro">
                 <p>This site serves as a resources for the master thief class, Phantom, of MapleStory. 
                 Feel free to explore the links below to learn more about the class and its skills.
                 <br></br>
@@ -18,25 +16,19 @@ const Home = () => {
             </div>
             <div className="class-links">
                 <li>
-                    <Link to="/faq">FAQ</Link>
+                <Link to="/faq">FAQ</Link>
                 </li>
                 <li>
-                    1st-4th Job Skills & Loadout
+                5th Job Skills
                 </li>
                 <li>
-                    5th Job Skills
+                6th Job Skills
                 </li>
                 <li>
-                    6th Job Skills
+                Inner Ability
                 </li>
                 <li>
-                    Link Skills
-                </li>
-                <li>
-                    Inner Ability
-                </li>   
-                <li>
-                    Training Maps & Rotations
+                Training Maps & Rotations
                 </li>
             </div> 
         </div>
