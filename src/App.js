@@ -1,39 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Home from './routes/home/home.component';
+import FAQ from './routes/faq/faq.component';
+import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-       <header class name="class-header"> 
-          Phantom
-       </header> 
-       <div className="class-intro">
-         <p>This site serves as a resources for the master thief class, Phantom, of MapleStory. 
-          Feel free to explore the links below to learn more about the class and its skills.
-          <br></br>
-          If you have any more questions, feel free to join the class <a href="https://discord.gg/225H7sw" target="_blank" rel="noopener noreferrer">Discord</a> and join the community!
-          <br></br>
-         </p>
-        </div>
-      <div className="class-links">
-        <li>
-          FAQ
-        </li>
-        <li>
-          5th Job Skills
-        </li>
-        <li>
-          6th Job Skills
-        </li>
-        <li>
-          Inner Ability
-        </li>
-        <li>
-          Training Maps & Rotations
-        </li>
-      </div>
+
+         <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/faq" element={<FAQ />} />
+          {/* <Route path="/5th-job-skills" element={<FifthJobSkills />} />
+          <Route path="/6th-job-skills" element={<SixthJobSkills />} />
+          <Route path="/inner-ability" element={<InnerAbility />} />
+          <Route path="/training-maps" element={<TrainingMaps />} /> */}
+        </Routes>
     </div>
+    </Router>
   );
 }
 
