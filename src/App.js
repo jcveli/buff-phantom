@@ -12,7 +12,7 @@ function App() {
          <p>This site serves as a resources for the master thief class, Phantom, of MapleStory. 
           Feel free to explore the links below to learn more about the class and its skills.
           <br></br>
-          If you have any more questions, feel free to join the class Discord and join the community!
+          If you have any more questions, feel free to join the class <a href="https://discord.gg/225H7sw" target="_blank" rel="noopener noreferrer">Discord</a> and join the community!
           <br></br>
          </p>
         </div>
