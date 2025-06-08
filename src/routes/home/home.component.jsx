@@ -16,19 +16,19 @@ const Home = () => {
             </div>
             <div className="class-links">
                 <li>
-                <Link to="/faq">FAQ</Link>
+                    <Link to="/faq">FAQ</Link>
                 </li>
                 <li>
-                5th Job Skills
+                    Inner Ability
                 </li>
                 <li>
-                6th Job Skills
+                    5th Job Skills
                 </li>
                 <li>
-                Inner Ability
+                    6th Job Skills
                 </li>
                 <li>
-                Training Maps & Rotations
+                    Training Maps & Rotations
                 </li>
             </div> 
         </div>
