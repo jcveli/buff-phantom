@@ -1,15 +1,15 @@
 // import logo from './logo.svg';
 // import React from 'react';
-import './App.css';
+import './output.css'
 import Home from './routes/home/home.component';
 import FAQ from './routes/faq/faq.component';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-    <div className="App">
-
+    <div>
+      <Router>
+    
          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<FAQ />} />
@@ -18,8 +18,9 @@ function App() {
           <Route path="/inner-ability" element={<InnerAbility />} />
           <Route path="/training-maps" element={<TrainingMaps />} /> */}
         </Routes>
-    </div>
-    </Router>
+    
+      </Router>
+      </div>
   );
 }
 

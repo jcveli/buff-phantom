@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div>
-            <header class name="class-header"> 
+            <header class="text-center text-6xl font-bold mb-8 text-amber-300"> 
             Phantom
         </header> 
-            <div className="class-intro">
+            <div class="text-2xl text-black text-center m-2 p-2 outline outline-black rounded-lg">
                 <p>This site serves as a resources for the master thief class, Phantom, of MapleStory. 
                 Feel free to explore the links below to learn more about the class and its skills.
                 <br></br>
@@ -14,22 +14,26 @@ const Home = () => {
                 <br></br>
                 </p>
             </div>
-            <div className="class-links">
-                <li>
-                    <Link to="/faq">FAQ</Link>
-                </li>
-                <li>
-                    Inner Ability
-                </li>
-                <li>
-                    5th Job Skills
-                </li>
-                <li>
-                    6th Job Skills
-                </li>
-                <li>
-                    Training Maps & Rotations
-                </li>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-4 p-4">
+              
+                <div class="transform w-80 h-120 rounded-lg overflow-hidden shadow-lg bg-white flex flex-col justify-center transition duration-500 items-center mx-auto hover:scale-110">
+                        <div class="px-6 py-4 justify-center">
+                            <Link to="/faq" class="text-2xl">FAQ</Link>
+                        </div>
+                </div>
+            
+                <div class="transform w-80 h-120 rounded-lg overflow-hidden shadow-lg bg-white flex flex-col justify-center transition duration-500 items-center mx-auto hover:scale-110">
+                        <div class="px-6 py-4 justify-center">
+                            <Link to="/faq" class="text-2xl">FAQ</Link>
+                        </div>
+                </div>
+
+
+                <div class="transform w-80 h-120 rounded-lg overflow-hidden shadow-lg bg-white flex flex-col justify-center transition duration-500 items-center mx-auto hover:scale-110">
+                        <div class="px-6 py-4 justify-center">
+                            <Link to="/faq" class="text-2xl">FAQ</Link>
+                        </div>
+                </div>
             </div> 
         </div>
     );
