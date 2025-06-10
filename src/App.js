@@ -7,7 +7,9 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div class="min-h-screen bg-[url('./assets/background.jpg')] bg-cover bg-center">
+       <div className="absolute inset-0 bg-black opacity-50 z-10 pointer-events-none" />
+          <div className="relative z-20">
       <Router>
     
          <Routes>
@@ -20,6 +22,7 @@ function App() {
         </Routes>
     
       </Router>
+      </div>
       </div>
   );
 }
