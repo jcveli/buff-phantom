@@ -4,7 +4,7 @@ const FAQ = () => {
     return (
         <div>
             <Navbar />
-            <h1>FAQ</h1>
+            <h1 class="text-3xl ">FAQ</h1>
             <p>This is the FAQ page. Add your frequently asked questions here.</p>
         </div>
     );
