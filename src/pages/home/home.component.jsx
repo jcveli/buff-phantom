@@ -1,4 +1,3 @@
-import React from 'react';
 import faqIMG from '../faq/faq.png';
 import linkIMG from '../link-skills/link.png';
 import legionIMG from '../../assets/legion.png';
