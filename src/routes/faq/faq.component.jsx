@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../components/navbar/navbar.component';
 const FAQ = () => {
     return (
-        <div class="text-white text-center">
+        <div class="text-white text-center" id="faq-page">
             <Navbar />
             <h1 class="text-5xl outline-1 m-6 p-10 w-0.5xl bg-black/40 rounded-lg mx-auto">
                 Frequently Asked Questions
