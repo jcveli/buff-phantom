@@ -1,15 +1,15 @@
-import React from 'react';
+
 import Navbar from '../../components/navbar/navbar.component';
 const FAQ = () => {
     return (
         <div class="text-white text-center p-8" id="faq-page">
             
-           <div class="bg-[#1c1f22] h-auto rounded-md shadow-inner p-4  max-w-full mx-auto border border-[#2a2d30]">
-                <div class="flex items-center space-x-4 pb-2 border-b border-[#2a2d30]">
-                    <h1 class="text-4xl font-semibold text-white">
+           <div class="bg-[#1c1f22] h-auto rounded-md shadow-inner p-4 max-w-full mx-auto border border-[#2a2d30]">
+                <div class="flex items-center justify-between">
+                    <h1 class="text-4xl font-semibold text-">
                         Frequently Asked <span class="text-[#c2b6ff]">Questions</span>
                     </h1>
-                    <div class="w-32 h-2 rounded-t-md bg-[#2a2d30] shadow-inner"></div>
+                    
                     <div class="justify-content-end">
                         <Navbar />
                     </div>

@@ -14,7 +14,6 @@ const Home = () => {
                     <h1 class="text-4xl font-semibold text-white">
                         Welcome to the the <span class="text-[#c2b6ff]">Phantom</span> Guide!
                     </h1>
-                    <div class="w-32 h-2 rounded-t-md bg-[#2a2d30] shadow-inner"></div>
                 </div>
 
                 <div class="mt-4 bg-[#1c1f22] text-white rounded-md text-2xl">
