@@ -5,6 +5,8 @@ import Home from './pages/home/home.page';
 import FAQ from './pages/faq/faq.component';
 import Footer from './components/footer/footer.component';
 import SixthJobSkills from './pages/sixthJob/sixthJob.page';
+import FifthJobSkills from './pages/fifthJob/fifthJob.page';
+import FirstAndFourthSkills from './pages/firstAndFourthSkills/firstAndFourth.page'; 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/6th-job-skills" element={<SixthJobSkills />} />
+          <Route path="/5th-job-skills" element={<FifthJobSkills />} />
+          <Route path="/first-and-fourth-skills" element={<FirstAndFourthSkills />} />
           {/* <Route path="/5th-job-skills" element={<FifthJobSkills />} />
           <Route path="/6th-job-skills" element={<SixthJobSkills />} />
           <Route path="/inner-ability" element={<InnerAbility />} />

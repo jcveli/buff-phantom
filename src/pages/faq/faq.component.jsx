@@ -1,23 +1,12 @@
 
-import Navbar from '../../components/navbar/navbar.component';
+import Header from '../../components/header/header.component';
 const FAQ = () => {
     return (
         <div class="text-white text-center p-8" id="faq-page">
             
-           <div class="bg-[#1c1f22] h-auto rounded-md shadow-inner p-4 max-w-full mx-auto border border-[#2a2d30]">
-                <div class="flex items-center justify-between">
-                    <h1 class="text-4xl font-semibold text-">
-                        Frequently Asked <span class="text-[#c2b6ff]">Questions</span>
-                    </h1>
-                    
-                    <div class="justify-content-end">
-                        <Navbar />
-                    </div>
+           <Header title="Frequently Asked Questions" />
 
-                </div>
-            </div>
-
-            <div class="bg-[#1c1f22] h-auto rounded-md shadow-inner p-4 max-w-full mx-auto border border-[#2a2d30] mt-4">
+            <div class="bg-[#1c1f22]/90 h-auto rounded-md shadow-inner p-4 max-w-full mx-auto border border-[#2a2d30] mt-4">
                 <div class="grid grid-cols-1 md:grid-cols-2">
                     <div>
                         <h2 class="m-4 text-3xl font-bold mb-4 underline">Is Phantom that bad of a class?</h2>
